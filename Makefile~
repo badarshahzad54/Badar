@@ -1,0 +1,10 @@
+JCC =javac
+
+JFLAGS = -g
+
+default: EchoClient.class
+
+EchoClient.class: EchoClient.java
+
+clean: 
+	rm $(RM)*.class
